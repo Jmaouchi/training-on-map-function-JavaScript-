@@ -1,0 +1,56 @@
+body{
+  background-color:rgb(69, 220, 240);
+}
+
+.container{
+  position: fixed;
+  padding: 120px;
+  box-shadow: 0 5px 15px rgb(54, 42, 42);
+  margin-top: 15%;
+  margin-left: 25%;
+  text-align: center;
+  border-radius: 50px;
+  place-items: centers;
+  max-width: 600px;
+}
+
+#input{
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+#input::placeholder{
+font-size: 11px;
+}
+
+.btns{
+  margin-top: 25px;
+}
+
+.btnOne, .btnTwo, .btnThree{
+  margin-top: 1rem;
+  max-width: 200px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1rem;
+  color: rgb(245, 235, 235);
+  background:rgb(17, 16, 16);
+  cursor: pointer;
+  border-radius:100px;
+  margin: 15px;
+}
+
+.btnOne:hover, .btnTwo:hover, .btnThree:hover{
+  letter-spacing: .09rem;
+  background-color: transparent;
+  color: rgb(19, 18, 18);
+  border: none;
+  border-bottom: 2px solid rgb(48, 11, 214);
+}
+
+
+#collections{
+  display: flex;
+}
+
